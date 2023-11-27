@@ -1,0 +1,24 @@
+goals = []
+print("___---___ LIST PROGRAM IN PYTHON BY BIOZFROG___---___\n")
+num = input("How many things do you want to add: ")
+num = int(num)
+
+# Adding Procedure
+for i in range(num):
+    new = input("What do you want to add: ")
+    goals.append(new)
+print(goals)
+
+# Deleting Procedure
+i = input("What do you want to delete (Enter a index number (which starts from 1 not 0)): ")
+i = int(i)
+i = i - 1
+del goals[i]
+print(goals)
+
+# Editing Procedure
+i = input("What do you want to change (Enter a index number): ")
+i = int(i)
+i = i 
+goals[i] = input("What do you want to add: ")
+print(goals)
